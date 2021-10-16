@@ -1,0 +1,25 @@
+{
+  "name": "ultdreck",
+  "version": "1.0.0",
+  "description": "fewfew",
+  "main": "postcss.config.js",
+  "scripts": {
+    "style:build": "npx tailwind build -i ./wwwroot/css/styles.css -o ./wwwroot/css/site.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manuss20/ultdreck.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manuss20/ultdreck/issues"
+  },
+  "homepage": "https://github.com/Manuss20/ultdreck#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.17"
+  }
+}
